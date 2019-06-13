@@ -25,15 +25,15 @@
 	<h1>Similarities and Differences</h1>
 	<h3>Shared Operators</h3>
 	<p>Remember, both Python and JavaScript have C as one of thier ancestors. Because of this, it is not shocking 
-	to find out that they share many of the same
-		operators as C. These include +, -, /, *, ==, !=, &lt, &gt, etc. By going to these two sites, you can compare 
+	to find out that they share many of the same operators as C. These include +, -, /, *, ==, !=, &lt, &gt, etc. 
+	By going to these two sites, you can compare the operators for the two languages.
 		<a href="https://www.tutorialspoint.com/python/python_basic_operators.htm">Python's list of operators</a> to 
 		<a href="https://www.w3schools.com/jsref/jsref_operators.asp">JavaScript's list of operators</a>. When you do so, 
 		you will find that Python has a few that JavaScript does not. You will also see that the conditional operators, 
 		also known as logical operators, exist in both languages but use different characters.</p>
 	<h3>JavaScript's missing operators</h3>
-	<p>Because Python are different languages and the creators of JavaScript had different opinions than those who 
-	created Python, there are some Python operators you should not expect to find in C. They are:</p>
+	<p>Because Python and JavaScript are different languages and the creators of JavaScript had different opinions 
+	than those who created Python, there are some Python operators you should not expect to find in C. They are:</p>
 	<ul>
 		<li>** - the exponentiation operator</li>
 		<li>// - the floor division operator</li>
@@ -80,14 +80,16 @@
 		</table>
 	</p>
 	<h3>Variables</h3>
-	<p>In Python, a variable can hold any type of value and can change the type of value it holds. For example, this code is valid in Python.</p>
+	<p>In Python, a variable can hold any type of value and can change the type of value it holds. For example, 
+	this code is valid in Python.</p>
 	<pre>
 <code class="Python">age = 3
 age = 5
 age = 4.2
 age = 'old'</code>
 	</pre>
-	<p>JavaScript variables behave in much the same way. They can hold any type and the type can change, just like in Python. JavaScript does require you to use the let keyword to declare a variable like this:</p>
+	<p>JavaScript variables behave in much the same way. Just like in Python, they can hold any type and the type can change.
+       	However, JavaScript does require you to use the let keyword to declare a variable. Like this:</p>
 	<pre>
 <code>let age = 3
 age = 5
@@ -100,8 +102,8 @@ age = 'old'</code>
 	<pre>
 <code class="Python">PI=3.14</code
 	</pre>
-	<p>In JavaScript this is done differently, instead of using all upper case names, JavaScript requires the use of the 
-	const keyword, like this:</p>
+	<p>In JavaScript this is done differently, instead of using all upper case names, JavaScript requires 
+	the use of the const keyword. Like this:</p>
 	<pre>
 <code>const PI = 3.14</code>
 	</pre>
@@ -109,7 +111,10 @@ age = 'old'</code>
 	<p>As with all things, there are pluses and minuses of requiring keywords like const and let. One disadvantage is 
 	the extra cluttering of the code with 'unnecessary' words. An advantage is explicitness. Everyone that later reads 
 	your code will know exactly what you meant to have happen. Also, because of this explicitness, a variable can't be 
-	accidentally declared twice in JavaScript, a situation which can happen in large Python code sets.
+	accidentally declared twice in JavaScript, a situation which can produce strange behavior in large Python code sets 
+	that can be very difficult to debug.</p>
+
+	<h3>Arrays</h3>
 
 	<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 </body>
